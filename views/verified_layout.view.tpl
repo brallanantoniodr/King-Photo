@@ -4,8 +4,10 @@
             <meta charset="utf-8" />
             <title>{{page_title}}</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-            <link rel="stylesheet" href="public/css/papier.css" />
+            <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+            <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Anton|Oswald" rel="stylesheet">
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
             <link rel="stylesheet" href="public/css/estilo.css" />
             <script src="public/js/jquery.min.js"></script>
             {{foreach css_ref}}
@@ -33,7 +35,7 @@
             </div>
 
             <div class="footer">
-                Derechos Reservados 2018
+                Derechos Reservados 2019
             </div>
             {{foreach js_ref}}
                 <script src="{{uri}}"></script>
