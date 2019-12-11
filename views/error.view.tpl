@@ -1,3 +1,9 @@
 <h1>Lo sentimos la página que usted ha
  solicitado no está disponible.</h1>
-<h2>{{pageRequest}}</h2>
+{{if showErrors}}
+    <ul>
+        {{foreach errors}}
+            <li>{{error_msg}}</li>
+        {{endfor errors}}
+    </ul>
+{{endif showErrors}}

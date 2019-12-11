@@ -1,22 +1,22 @@
 <?php
+  require_once("models/usuarios.model.php");
+/*
+  $arrData = array(
+    "usuario_nombre" => "Fulano de Tal 1",
+    "usuario_email" => "fulano1@detal.com",
+    "usuario_pswd" => "unCatr41",
+    "usuario_pswd_cnf" => "unCatr41"
+  );
 
-  require("./models/empresas.model.php");
+  echo registrarUsuario($arrData) . "<br/>";
+  //print_r(obtenerUsuarios());
+*/
+  //echo date('Y-m-d H:i:s');
+  $arrData = array(
+    "usuario_email" => "fulano1@detal.com",
+    "usuario_pswd" => "unCatr41"
+  );
 
-  $Empresa["empdsc"] = "Colonia";
-  $Empresa["emprtn"] = "2450-982345098";
-  $Empresa["empdir"] = "ASdasdf asdf asdfklj Honduras";
-  $Empresa["emptel"] = "12341234134";
-  $Empresa["emptel2"] = "123412342345";
-  $Empresa["empurl"] = "http://someurl.com.hn";
-  $Empresa["empusring"] = "obtancourthunicah@gmail.com";
-  $Empresa["empest"] ="ACT";
-  $Empresa["empctc"] = "Somebody";
-  $Empresa["emptip"] = "RTL";
-  $Empresa["empresaId"] = 2;
+  print_r(autenticarUsuario($arrData));
 
-  echo actualizarEmpresa($Empresa);
-  //print_r(obtenerEmpresa(1));
-
-
-
-?>
+ ?>

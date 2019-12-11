@@ -1,0 +1,39 @@
+select * from usuarios where username=? and password=?;
+/// Peor práctica para un esquema de seguridad
+
+1) Obtener el usuario que coincida con el nombre de usuario
+2) Determinar el estado del usuario
+3) Determinar si coinciden las contraseñas
+4) Determinar si la contraseña es vigente
+5) Autenticar.
+
+Autenticación
+
+Validacion
+
+Perfiles (roles) (funciones)
+
+Contraseñas
+
+8
+1 Mayuscula
+1 Numero
+1 signo de puntuacion
+
+Orl4nd0.
+
+encrypt('Orl4nd0.')
+
+salting //condimentado
+
+sltOrl4nd0.
+sltYu3la.c
+slt)asdfk,
+
+fhcingreso
+ segundos
+ %2
+ pswd + segundo
+ segundo + pswd
+
+ 
