@@ -37,7 +37,7 @@
     <main>
     <article>
       <p>
-        Somos una empresa de transporte, enfocadas en brindar el mejor servicio a un costo accesible ,Una empresa confiable y segura,especializados en cargas y en viajes con pasajeros, Operamos desde el 2008, todos nusestros clientes estan satisfechos.
+        Somos una empresa de fotografia, enfocadas en brindar el mejor servicio a un costo accesible ,Una empresa confiable y segura,especializados en fotografia e impreciones, Operamos desde el 2008, todos nusestros clientes estan satisfechos.
         para nosotros como empresa la satisfaccion del cliente es lo primero
       </p>
       <img src="public/imgs/KP/5.jpeg" alt="">
